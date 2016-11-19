@@ -1,0 +1,9 @@
+{
+  "name": "simple-webpack-starter",
+  "version": "0.1.0",
+  "description": "An aggressively simple Webpack 2 starter project",
+  "main": "index.js",
+  "repository": "git@github.com:iansinnott/simple-webpack-starter.git",
+  "author": "Ian Sinnott <ian@iansinnott.com>",
+  "license": "MIT"
+}
