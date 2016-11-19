@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "git@github.com:iansinnott/simple-webpack-starter.git",
   "author": "Ian Sinnott <ian@iansinnott.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "2.1.0-beta.27"
+  }
 }
