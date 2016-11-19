@@ -1,3 +1,3 @@
 # Simple Webpack Starter
 
-A super barebones starter project for Webpack 2.
+An aggressively simple Webpack 2 starter project
