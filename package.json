@@ -7,14 +7,16 @@
   "author": "Ian Sinnott <ian@iansinnott.com>",
   "license": "MIT",
   "scripts": {
+    "clean": "rimraf dist",
     "start": "npm run build -- --watch",
-    "build": "webpack --config webpack.config.js"
+    "build": "npm run clean && webpack --config webpack.config.js"
   },
   "devDependencies": {
     "babel-core": "^6.18.2",
     "babel-loader": "^6.2.8",
     "babel-plugin-transform-object-rest-spread": "^6.19.0",
     "babel-preset-env": "^0.0.8",
+    "rimraf": "^2.5.4",
     "webpack": "2.1.0-beta.27"
   }
 }
